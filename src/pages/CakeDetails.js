@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import {useCart} from '../components/CartContext';
 import { Cake, BirthdayProducts } from '../Data/items';
 import '../Style/CakeDetails.css';

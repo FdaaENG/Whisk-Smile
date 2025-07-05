@@ -1,4 +1,4 @@
-import ImageSlider from '../components/ImageSlider';
+
 import '../Style/HomePage.css';
 import React, { useEffect } from 'react';
 import FanFavorites from '../components/FanFavorites';

@@ -12,24 +12,20 @@ const CakePage = () => {
   const [flavorFilter, setFlavorFilter] = useState('All');
   const [dietaryFilter, setDietaryFilter] = useState('All');
   const [popularityFilter, setPopularityFilter] = useState('All');
-  const [priceRange, setPriceRange] = useState('All');
+  
   const [sortOption, setSortOption] = useState('default');
 
   // Filtering
   const filteredProducts = allCakes.filter((product) => {
-    const price = parseFloat(product.price);
-    const inPriceRange =
-      priceRange === 'All' ||
-      (priceRange === 'under20' && price < 20) ||
-      (priceRange === '20to40' && price >= 20 && price <= 40) ||
-      (priceRange === 'above40' && price > 40);
+
+
 
     return (
       product.type === 'Cake' &&
       (flavorFilter === 'All' || product.flavor.toLowerCase() === flavorFilter.toLowerCase()) &&
       (dietaryFilter === 'All' || product.dietary.includes(dietaryFilter.toLowerCase())) &&
-      (popularityFilter === 'All' || product.popularity.toLowerCase() === popularityFilter.toLowerCase()) &&
-      inPriceRange
+      (popularityFilter === 'All' || product.popularity.toLowerCase() === popularityFilter.toLowerCase()) 
+    
     );
   });
 
