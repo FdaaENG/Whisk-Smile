@@ -36,8 +36,8 @@ const Footer = () => {
         <div className="footer-social">
           <h4>Follow Us</h4>
           <div className="icons">
-            <a href="#"><FaFacebook /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href='https://example.com'><FaFacebook /></a>
+            <a href='https://example.com'><FaInstagram /></a>
           </div>
         </div>
 
