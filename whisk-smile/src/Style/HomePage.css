@@ -1,0 +1,44 @@
+.home-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top half background */
+.hero-section {
+  height: 50vh; /* Half of viewport */
+  background-image: url('../assest/B4.jpg'); /* or use background-color */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Optional background color version */
+.hero-section {
+  background-color: #ffefd5; /* use if not using an image */
+}
+
+/* Content inside the top half */
+.hero-content {
+  /* background-color: rgba(0, 0, 0, 0.4);  */
+  padding: 1.5rem;
+  border-radius: 12px;
+  font-family: "Libre Bodoni", serif;
+  color: black;
+}
+
+/* Bottom section */
+.bottom-section {
+  padding: 1rem;
+  background: #fff8f0;
+  text-align: center;
+  font-family: "Libre Bodoni", serif;
+}
+.quote{
+     font-family: "Dancing Script", cursive;
+     font-size:x-large;
+}

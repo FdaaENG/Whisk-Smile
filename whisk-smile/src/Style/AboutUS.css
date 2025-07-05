@@ -1,0 +1,34 @@
+.about-us-container {
+  padding: 4rem 2rem;
+  background-color: #fff8f2;
+      font-family: "Libre Bodoni", serif;
+}
+
+.about-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 35rem;
+}
+
+.about-us-text {
+  max-width: 500px;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.about-us-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff6b81;
+}

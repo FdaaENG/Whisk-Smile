@@ -1,0 +1,48 @@
+.cart-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+
+.item-info h4 {
+  margin: 0;
+}
+
+.cart-summary {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.checkout-btn {
+  background-color: #ff6b81;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 15rem;
+}
+
+.delete-icon {
+  background: none;
+  border: none;
+  color: crimson;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: auto;
+}

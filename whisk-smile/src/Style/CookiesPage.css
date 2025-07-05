@@ -1,0 +1,113 @@
+.Cookies-page {
+  padding: 2rem;
+  background-color: #fff8f0;
+  font-family: "Libre Bodoni", serif;
+}
+
+.Cookies-hero {
+  height: 40vh; /* Half of viewport */
+  background-image: url('../assest/Cookies/C1.jpg'); /* or use background-color */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.Cookies-hero h1 {
+  color: #ff6b81;
+  font-size: 2.2rem;
+}
+
+.Cookies-hero p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.bottom-section {
+  padding: 1rem;
+  background: #fff8f0;
+  text-align: center;
+  font-family: "Libre Bodoni", serif;
+}
+.Cookies-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+.Cookies-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.Cookies-card:hover {
+  transform: scale(1.03);
+}
+
+.Cookies-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Cookies-card h3 {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.Cookies-card p {
+  margin: 0.3rem 0;
+  font-size: 0.8rem;
+}
+
+.tags {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.Cookies-note {
+  margin-top: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+.filter-bar {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+}
+
+.filter-bar select {
+  appearance: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  border: 1px solid #ffb347;
+  background-color: #ffb347;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.filter-bar select:hover {
+  background-color:#ffb347;
+  /* border-color: #ffb6c1; */
+}
+
+.Cookies-card{
+  text-decoration: none;
+  color: inherit;
+}
