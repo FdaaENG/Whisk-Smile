@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import '../Style/Footer.css';
 import logo from '../assest/logo.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -17,9 +18,9 @@ const Footer = () => {
         <div className="footer-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">Our Story</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">Our Story</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
           </ul>
         </div>
 
