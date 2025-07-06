@@ -71,13 +71,13 @@
   border: 1px solid #d35400;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 300;
   font-family: inherit;
   transition: background-color 0.3s ease;
   min-width: 100px;
   text-align: center;
   white-space: nowrap;
-  width: 8rem;
+  width: 6rem;
 }
 
 .pack-options button.active {
@@ -131,6 +131,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
+    font-family: "Libre Bodoni", serif;
 }
 
 .add-to-cart-btn:hover {

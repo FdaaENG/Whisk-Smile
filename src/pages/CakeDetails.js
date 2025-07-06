@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import {useCart} from '../components/CartContext';
-import { Cake, BirthdayProducts } from '../Data/items';
+import { Cake, BirthdayProducts, cakeProducts } from '../Data/items';
 import '../Style/CakeDetails.css';
 import { toast } from 'react-toastify';
 
@@ -12,7 +12,7 @@ const CakeDetails = () => {
     }, []);
 
     const { id } = useParams();
-    const CakeProducts = [...Cake, ...BirthdayProducts];
+    const CakeProducts = [...Cake, ...BirthdayProducts, ...cakeProducts];
     const cake = CakeProducts.find((item) => item.id === id);
     const [quantity, setQuantity] = useState(1);
     const [message, setMessage] = useState('');

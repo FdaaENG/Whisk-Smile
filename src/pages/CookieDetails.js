@@ -1,7 +1,7 @@
 import  { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import {useCart} from '../components/CartContext';
-import { cookies, BirthdayProducts } from '../Data/items';
+import { cookies, BirthdayProducts, cookieProducts } from '../Data/items';
 import '../Style/CookieDetails.css';
 import { toast } from 'react-toastify';
 
@@ -12,7 +12,7 @@ const CookieDetails = () => {
     }, []);
 
     const { id } = useParams();
-    const CookieProducts = [...cookies, ...BirthdayProducts];
+    const CookieProducts = [...cookies, ...BirthdayProducts, ...cookieProducts];
     const cookie = CookieProducts.find((item) => item.id === id);
     const [packCount, setPackCount] = useState(1);
     const [message, setMessage] = useState('');

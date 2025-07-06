@@ -44,7 +44,8 @@ export const cakeProducts = [
     price: 22.99,
     image: P1,
     description: 'Rich, moist chocolate layers with crushed Oreos and creamy vanilla frosting. A must for Oreo lovers!', 
-    isBirthday: false
+    isBirthday: false,
+
   },
   {
     id: '2',
@@ -53,7 +54,8 @@ export const cakeProducts = [
     price: 24.99,
     image: P2,
     description: 'Light vanilla sponge layered with whipped cream, juicy strawberries, and sweet mangoes.', 
-    isBirthday: false
+    isBirthday: false,
+
   },
   {
     id: '4',
